@@ -8,3 +8,10 @@
 # brainstormr=~/Projects/development/planetargon/brainstormr
 # cd $brainstormr
 #
+
+if [[ "$OSTYPE" = darwin* ]]; then
+    alias ls="ls -alG"
+else
+    alias ls="ls -al --color"
+fi
+
